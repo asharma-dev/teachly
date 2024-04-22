@@ -10,11 +10,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+#cal_id body {
+  overflow: hidden;
 }
